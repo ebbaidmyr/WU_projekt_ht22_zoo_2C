@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background:  rgb(164, 166, 130);
+}
+
+#grid_wrapper {
+    display: grid;
+    grid-template-columns: 30fr 200fr 200fr 200fr 30fr ;
+    grid-template-rows: 20fr 110fr 80fr 20fr;
+    grid-template-areas: 
+    "he he he he he"
+    ". ar ar ar ."
+    "se se se se se"
+    "fo fo fo fo fo"
+    ; 
+}
+
+#grid_hittahit {
+    display: grid;
+    grid-template-columns: 1vh, 1vh, 1vh;
+    grid-template-rows: 1vh, 1vh, 1vh;
+    grid-template-areas: 
+    "he he he"
+    "se se se"
+    "fo fo fo"
+    ;
+}
+
+#grid_anstallda {
+    display: grid;
+    grid-template-columns: 1vh, 1vh, 1vh;
+    grid-template-rows: 2vh, 2vh, 2vh, 2vh, 2vh;
+    grid-template-areas: 
+    "he he he"
+    "car bet tho"
+    "lot jak sun"
+    "mar mir nat"
+    "fo fo fo"
+    ;
+}
+
+.anstallda {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+
+.people {
+    border-radius: 5px;
+    height: 350px;
+    width: 300px;
+    margin: 100px;
+    object-fit: cover;
+}
+
+
+#karta {
+    grid-area: se;
+    height: 500px;
+}
+
+    #carl {
+        grid-area: car;
+    }
+
+    #betty {
+        grid-area: bet;
+    }
+
+    #thomas {
+        grid-area: tho;
+    }
+
+    #lotti{
+        grid-area: lot;
+    }
+
+    #jake {
+        grid-area: jak;
+    }
+
+    #sunni {
+        grid-area: sun;
+    }
+
+    #marc {
+        grid-area: mar;
+    }
+
+    #miranda {
+        grid-area: mir;
+    }
+
+    #natalie {
+        grid-area: nat;
+    }
+
+header {
+    background: rgb(116, 125, 90);
+    grid-area: he;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#hamburgare {
+    width: 80px;
+    height: auto;
+}
+
+#hamburgare:hover {
+    height: 110px;
+}
+
+
+#zoo_logga {
+    height: 100px;
+    width: auto;
+}
+
+#zoo_logga:hover {
+    height: 110px;
+}
+
+
+.window_djur {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.welcome {
+    grid-area: ar;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 400px;
+    background-image: url("../img/animals/lion.jpg");
+    margin-top: 30px;
+}
+
+article {
+    background: rgb(164, 166, 130);
+    grid-area: se;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.windows {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    flex-direction: column;
+    margin: 20px;
+}
+
+footer {
+    grid-area: fo;
+    background: rgb(110, 126, 79);
+    height: 10fr;
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#telephone {
+    display: flex;
+    margin-top: 20px;
+    height: 60px;
+    width: auto;
+
+}
+
+h1 {
+    color: rgb(64, 93, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150px;
+    text-decoration: underline;
+}
+
+h2 {
+    color:rgb(40, 71, 29);
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2:hover {
+    color: rgb(27, 119, 78);
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    color:rgb(40, 63, 31);
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+h3:hover {
+    color: rgb(27, 119, 78);
+} 
+
+
+h4 {
+    color: rgb(36, 47, 33);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 40px;
+}
+
+h4:hover {
+    color: rgb(27, 119, 78);
+} 
+
+.undertext {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+h5 {
+    color:rgb(86, 110, 77);
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
