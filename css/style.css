@@ -9,6 +9,28 @@ body {
     background:  rgb(164, 166, 130);
 }
 
+#vivaldi_zoo {
+    color:rgb(0, 86, 44);
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+
+}
+
+#vivaldi_zoo:hover {
+    color: rgb(27, 119, 78);
+}
+
+#logo {
+    display: flex;
+    height: 110px;
+    width: auto;
+}
+
 #grid_wrapper {
     display: grid;
     grid-template-columns: 30fr 200fr 200fr 200fr 30fr ;
@@ -39,8 +61,8 @@ body {
     grid-template-areas: 
     "he he he"
     "car bet tho"
-    "lot jak sun"
-    "mar mir nat"
+    "lot jak jen"
+    "mar jon nat"
     "fo fo fo"
     ;
 }
@@ -53,17 +75,55 @@ body {
 }
 
 .people {
+    height: 550px;
+    width: 390px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid rgba(15, 15, 15, 0.575);
+    padding: 10px;
     border-radius: 5px;
+    background-color: rgba(237, 241, 235, 0.599)
+}
+
+.people img {
     height: 350px;
-    width: 300px;
-    margin: 100px;
+    width: 350px;
     object-fit: cover;
+    border-radius: 20px;
+}
+
+#workers {
+    text-align: center;
+    padding-top: 100px;
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.575);
+    font-size: 100px;
+}
+
+.namn {
+    font-size: 28px;
+    margin: 10px;
+    font-weight: 600;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.personinformation {
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
-#karta {
+#hittahit {
     grid-area: se;
-    height: 500px;
+    height: 750px;
+}
+
+#karta {
+    margin: 30px;
+    height: 600px;
+    width: auto;
 }
 
     #carl {
@@ -86,16 +146,16 @@ body {
         grid-area: jak;
     }
 
-    #sunni {
-        grid-area: sun;
+    #jennifer {
+        grid-area: jen;
     }
 
     #marc {
         grid-area: mar;
     }
 
-    #miranda {
-        grid-area: mir;
+    #jonas {
+        grid-area: jon;
     }
 
     #natalie {
@@ -120,17 +180,6 @@ header {
     height: 110px;
 }
 
-
-#zoo_logga {
-    height: 100px;
-    width: auto;
-}
-
-#zoo_logga:hover {
-    height: 110px;
-}
-
-
 .window_djur {
     height: 300px;
     width: 300px;
@@ -143,8 +192,14 @@ header {
     text-align: center;
     padding-left: 40px;
     padding-top: 400px;
-    background-image: url("../img/animals/lion.jpg");
+    background-image: url("../img/animals/lion3.jpg");
     margin-top: 30px;
+}
+
+#background_color {
+    background-color: rgba(116, 125, 90, 0.523);
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 article {
@@ -188,14 +243,14 @@ footer {
 }
 
 h1 {
-    color: rgb(64, 93, 34);
+    color:  white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 150px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h2 {
-    color:rgb(40, 71, 29);
+    color:white;
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -219,7 +274,7 @@ h3:hover {
 
 
 h4 {
-    color: rgb(36, 47, 33);
+    color: rgba(0, 0, 0, 0.768);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     margin: 40px;
@@ -240,7 +295,7 @@ p {
 }
 
 h5 {
-    color:rgb(86, 110, 77);
+    color: rgb(255, 255, 255);
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
