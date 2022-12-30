@@ -132,8 +132,9 @@ body {
     margin: 40px;
     height: auto;
     width: 900px;
-    border: 2px solid rgba(0, 0, 0, 0.559);
-    border-radius: 5px;
+    border: 5px solid rgba(0, 0, 0, 0.559);
+    border-radius: 20px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.738);
 }
 
 #karta2 {
@@ -141,8 +142,9 @@ body {
     height: auto;
     width: 900px;
     height: 530px;
-    border: 2px solid rgba(0, 0, 0, 0.559);
-    border-radius: 5px;
+    border: 5px solid rgba(0, 0, 0, 0.559);
+    border-radius: 20px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.738);
 }
 
 
@@ -232,7 +234,7 @@ header {
     text-shadow: rgb(47, 132, 55) 10px 1px 10px;
     background-image: url("../img/animals/lion3.jpg");
     margin-top: 30px;
-    box-shadow: 0 px 60px 0 rgba(0, 0, 0, 0.738);
+    box-shadow: 0 60px 0 rgba(0, 0, 0, 0.738);
 }
 
 #background_color {
